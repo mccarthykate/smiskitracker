@@ -17,9 +17,10 @@ visit takes a little while to load because R is downloaded into the browser.
 | Path | What it is |
 |---|---|
 | `app/app.R` | The Shiny app (interface and logic) |
-| `app/smiskis.csv` | Every figure: collection, name, and whether it's a secret |
+| `app/smiskis.csv` | Every figure: collection, name, secret or not, and its picture |
 | `app/www/` | Styles (`styles.css`) and browser saving (`tracker.js`) |
-| `R/update_smiskis.R` | Rebuilds `smiskis.csv` from the Google Sheet |
+| `images/` | A picture of each figure, taken from the Google Sheet |
+| `R/update_smiskis.R` | Rebuilds `smiskis.csv` and `images/` from the Google Sheet |
 | `.github/workflows/deploy.yml` | Publishes the site to GitHub Pages on every push |
 
 ## Common tasks
@@ -44,6 +45,7 @@ then commit and push. The site updates by itself a few minutes later.
 
 ```r
 shinylive::export("app", "site")
+file.copy("images", "site", recursive = TRUE); file.rename("site/images", "site/img")
 httpuv::runStaticServer("site")
 ```
 

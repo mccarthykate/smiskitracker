@@ -1,167 +1,167 @@
-"id","collection","figure","secret"
-"series-1--hugging-knees","Series 1","Hugging Knees",FALSE
-"series-1--sitting","Series 1","Sitting",FALSE
-"series-1--looking-back","Series 1","Looking Back",FALSE
-"series-1--lounging","Series 1","Lounging",FALSE
-"series-1--hiding","Series 1","Hiding",FALSE
-"series-1--peeking","Series 1","Peeking",FALSE
-"series-1--rudolph-christmas","Series 1","Rudolph (Christmas)",TRUE
-"series-1--scream","Series 1","Scream",TRUE
-"series-2--kneeling","Series 2","Kneeling",FALSE
-"series-2--climbing","Series 2","Climbing",FALSE
-"series-2--daydreaming","Series 2","Daydreaming",FALSE
-"series-2--pushing","Series 2","Pushing",FALSE
-"series-2--peeking","Series 2","Peeking",FALSE
-"series-2--listening","Series 2","Listening",FALSE
-"series-2--snowman-christmas","Series 2","Snowman (Christmas)",TRUE
-"series-2--birth-of-venus","Series 2","Birth of Venus",TRUE
-"series-3--bridge","Series 3","Bridge",FALSE
-"series-3--peeking","Series 3","Peeking",FALSE
-"series-3--climbing","Series 3","Climbing",FALSE
-"series-3--little-three","Series 3","Little (three)",FALSE
-"series-3--hiding","Series 3","Hiding",FALSE
-"series-3--handstand","Series 3","Handstand",FALSE
-"series-3--the-thinker","Series 3","The Thinker",TRUE
-"series-4--sneaking","Series 4","Sneaking",FALSE
-"series-4--scared","Series 4","Scared",FALSE
-"series-4--relaxing","Series 4","Relaxing",FALSE
-"series-4--lazy","Series 4","Lazy",FALSE
-"series-4--stuck","Series 4","Stuck",FALSE
-"series-4--defeated","Series 4","Defeated",FALSE
-"series-4--twin-angels","Series 4","Twin Angels",TRUE
-"bath-series--shampooing","Bath Series","Shampooing",FALSE
-"bath-series--not-looking","Bath Series","Not Looking",FALSE
-"bath-series--scrubbing","Bath Series","Scrubbing",FALSE
-"bath-series--duck","Bath Series","Duck",FALSE
-"bath-series--dazed","Bath Series","Dazed",FALSE
-"bath-series--looking","Bath Series","Looking",FALSE
-"bath-series--water-droplet","Bath Series","Water Droplet",TRUE
-"bed-series--before-rest","Bed Series","Before Rest",FALSE
-"bed-series--sleepy","Bed Series","Sleepy",FALSE
-"bed-series--co-sleeping","Bed Series","Co-sleeping",FALSE
-"bed-series--reading","Bed Series","Reading",FALSE
-"bed-series--at-sleep","Bed Series","At Sleep",FALSE
-"bed-series--fussing","Bed Series","Fussing",FALSE
-"bed-series--crescent-moon","Bed Series","Crescent Moon",TRUE
-"birthday-series--giving-a-bouquet","Birthday Series","Giving a Bouquet",FALSE
-"birthday-series--wrapped-up","Birthday Series","Wrapped Up",FALSE
-"birthday-series--popping-confetti","Birthday Series","Popping Confetti",FALSE
-"birthday-series--birthday-message","Birthday Series","Birthday Message",FALSE
-"birthday-series--little-smiski-decorating","Birthday Series","Little Smiski Decorating",FALSE
-"birthday-series--smiski-tasting","Birthday Series","Smiski Tasting",FALSE
-"birthday-series--candle","Birthday Series","Candle",TRUE
-"cheer-series--on-our-side","Cheer Series","On our side",FALSE
-"cheer-series--dancing","Cheer Series","Dancing",FALSE
-"cheer-series--little-cheerleading","Cheer Series","Little Cheerleading",FALSE
-"cheer-series--marching","Cheer Series","Marching",FALSE
-"cheer-series--drums","Cheer Series","Drums",FALSE
-"cheer-series--cheering","Cheer Series","Cheering",FALSE
-"cheer-series--trophy-angel","Cheer Series","Trophy Angel",TRUE
-"construction-series--digging-a-hole","Construction Series","Digging a Hole",FALSE
-"construction-series--crushing-rock","Construction Series","Crushing Rock",FALSE
-"construction-series--tightening-bolt","Construction Series","Tightening Bolt",FALSE
-"construction-series--measuring","Construction Series","Measuring",FALSE
-"construction-series--directing-traffic","Construction Series","Directing Traffic",FALSE
-"construction-series--loosening-bolt","Construction Series","Loosening Bolt",FALSE
-"construction-series--cone","Construction Series","Cone",TRUE
-"dressing-series--underpants","Dressing Series","Underpants",FALSE
-"dressing-series--struggling","Dressing Series","Struggling",FALSE
-"dressing-series--loose-pants","Dressing Series","Loose Pants",FALSE
-"dressing-series--putting-on-socks","Dressing Series","Putting on Socks",FALSE
-"dressing-series--sweater","Dressing Series","Sweater",FALSE
-"dressing-series--tight-pants","Dressing Series","Tight Pants",FALSE
-"dressing-series--bunny-costume","Dressing Series","Bunny Costume",TRUE
-"exercise-series--crunches","Exercise Series","Crunches",FALSE
-"exercise-series--aerobics","Exercise Series","Aerobics",FALSE
-"exercise-series--balance","Exercise Series","Balance",FALSE
-"exercise-series--dumbbell","Exercise Series","Dumbbell",FALSE
-"exercise-series--hoop","Exercise Series","Hoop",FALSE
-"exercise-series--stretch","Exercise Series","Stretch",FALSE
-"exercise-series--flexing","Exercise Series","Flexing",TRUE
-"hanging-series-christmas--santa-claus","Hanging Series (Christmas)","Santa Claus",FALSE
-"hanging-series-christmas--present","Hanging Series (Christmas)","Present",FALSE
-"hanging-series-christmas--snowman","Hanging Series (Christmas)","Snowman",FALSE
-"hanging-series-christmas--candy-cane","Hanging Series (Christmas)","Candy Cane",FALSE
-"hanging-series-christmas--stocking","Hanging Series (Christmas)","Stocking",FALSE
-"hanging-series-christmas--star","Hanging Series (Christmas)","Star",FALSE
-"hanging-series-christmas--reindeer","Hanging Series (Christmas)","Reindeer",TRUE
-"living-series--daydreaming","Living Series","Daydreaming",FALSE
-"living-series--playing","Living Series","Playing",FALSE
-"living-series--hiding","Living Series","Hiding",FALSE
-"living-series--nap-time","Living Series","Nap Time",FALSE
-"living-series--thinking","Living Series","Thinking",FALSE
-"living-series--lifting","Living Series","Lifting",FALSE
-"living-series--sunflower","Living Series","Sunflower",TRUE
-"moving-series--carrying-ladder","Moving Series","Carrying Ladder",FALSE
-"moving-series--balancing-boxes","Moving Series","Balancing Boxes",FALSE
-"moving-series--decorating","Moving Series","Decorating",FALSE
-"moving-series--teamwork","Moving Series","Teamwork",FALSE
-"moving-series--green-thumb","Moving Series","Green Thumb",FALSE
-"moving-series--falling-down","Moving Series","Falling Down",FALSE
-"moving-series--teddy","Moving Series","Teddy",TRUE
-"museum-series--the-source","Museum Series","The Source",FALSE
-"museum-series--fujin-and-raijin","Museum Series","Fujin and Raijin",FALSE
-"museum-series--bacchus","Museum Series","Bacchus",FALSE
-"museum-series--velazquez","Museum Series","Velázquez",FALSE
-"museum-series--dali","Museum Series","Dali",FALSE
-"museum-series--pearl-earring","Museum Series","Pearl Earring",FALSE
-"museum-series--king-tut","Museum Series","King Tut",TRUE
-"sunday-series--blowing-bubbles","Sunday Series","Blowing Bubbles",FALSE
-"sunday-series--paper-airplane","Sunday Series","Paper Airplane",FALSE
-"sunday-series--sunbathing","Sunday Series","Sunbathing",FALSE
-"sunday-series--sing-along","Sunday Series","Sing-Along",FALSE
-"sunday-series--skateboarding","Sunday Series","Skateboarding",FALSE
-"sunday-series--gardening","Sunday Series","Gardening",FALSE
-"sunday-series--dog-walker","Sunday Series","Dog Walker",TRUE
-"toilet-series--peek-a-boo","Toilet Series","Peek a Boo",FALSE
-"toilet-series--smelly","Toilet Series","Smelly",FALSE
-"toilet-series--squatting","Toilet Series","Squatting",FALSE
-"toilet-series--helping-out","Toilet Series","Helping Out",FALSE
-"toilet-series--relaxing","Toilet Series","Relaxing",FALSE
-"toilet-series--holding-in","Toilet Series","Holding In",FALSE
-"toilet-series--water-fountain","Toilet Series","Water Fountain",TRUE
-"work-series--approving","Work Series","Approving",FALSE
-"work-series--researching","Work Series","Researching",FALSE
-"work-series--presentation","Work Series","Presentation",FALSE
-"work-series--good-idea","Work Series","Good Idea",FALSE
-"work-series--on-the-road","Work Series","On the Road",FALSE
-"work-series--group-think","Work Series","Group Think",FALSE
-"work-series--lucky-cat","Work Series","Lucky Cat",TRUE
-"yoga-series--lotus","Yoga Series","Lotus",FALSE
-"yoga-series--triangle","Yoga Series","Triangle",FALSE
-"yoga-series--twist","Yoga Series","Twist",FALSE
-"yoga-series--tree","Yoga Series","Tree",FALSE
-"yoga-series--shoulderstand","Yoga Series","Shoulderstand",FALSE
-"yoga-series--ship","Yoga Series","Ship",FALSE
-"yoga-series--twin-heart","Yoga Series","Twin Heart",TRUE
-"strap-series-1--hugging-knees","Strap Series 1","Hugging Knees",FALSE
-"strap-series-1--sitting","Strap Series 1","Sitting",FALSE
-"strap-series-1--looking-back","Strap Series 1","Looking Back",FALSE
-"strap-series-1--lounging","Strap Series 1","Lounging",FALSE
-"strap-series-1--hiding","Strap Series 1","Hiding",FALSE
-"strap-series-1--peeking","Strap Series 1","Peeking",FALSE
-"strap-series-1--scream","Strap Series 1","Scream",TRUE
-"strap-series-2--kneeling","Strap Series 2","Kneeling",FALSE
-"strap-series-2--climbing","Strap Series 2","Climbing",FALSE
-"strap-series-2--daydreaming","Strap Series 2","Daydreaming",FALSE
-"strap-series-2--pushing","Strap Series 2","Pushing",FALSE
-"strap-series-2--peeking","Strap Series 2","Peeking",FALSE
-"strap-series-2--listening","Strap Series 2","Listening",FALSE
-"strap-series-2--birth-of-venus","Strap Series 2","Birth of Venus",TRUE
-"strap-series-3--bridge","Strap Series 3","Bridge",FALSE
-"strap-series-3--peeking","Strap Series 3","Peeking",FALSE
-"strap-series-3--climbing","Strap Series 3","Climbing",FALSE
-"strap-series-3--little-three","Strap Series 3","Little (three)",FALSE
-"strap-series-3--hiding","Strap Series 3","Hiding",FALSE
-"strap-series-3--handstand","Strap Series 3","Handstand",FALSE
-"strap-series-3--the-thinker","Strap Series 3","The Thinker",TRUE
-"hippers--smartphone","Hippers","Smartphone",FALSE
-"hippers--trying-to-climb","Hippers","Trying to climb",FALSE
-"hippers--looking-out","Hippers","Looking out",FALSE
-"hippers--sticking","Hippers","Sticking",FALSE
-"hippers--dozing","Hippers","Dozing",FALSE
-"hippers--upside-down","Hippers","Upside down",FALSE
-"hippers--headphones","Hippers","Headphones",TRUE
-"mini-surprise--searching","Mini Surprise","Searching",FALSE
-"mini-surprise--lifting","Mini Surprise","Lifting",FALSE
-"mini-surprise--hugging","Mini Surprise","Hugging",FALSE
+"id","collection","figure","secret","image"
+"series-1--hugging-knees","Series 1","Hugging Knees",FALSE,"series-1--hugging-knees.png"
+"series-1--sitting","Series 1","Sitting",FALSE,"series-1--sitting.png"
+"series-1--looking-back","Series 1","Looking Back",FALSE,"series-1--looking-back.png"
+"series-1--lounging","Series 1","Lounging",FALSE,"series-1--lounging.png"
+"series-1--hiding","Series 1","Hiding",FALSE,"series-1--hiding.png"
+"series-1--peeking","Series 1","Peeking",FALSE,"series-1--peeking.png"
+"series-1--rudolph-christmas","Series 1","Rudolph (Christmas)",TRUE,"series-1--rudolph-christmas.png"
+"series-1--scream","Series 1","Scream",TRUE,"series-1--scream.png"
+"series-2--kneeling","Series 2","Kneeling",FALSE,"series-2--kneeling.png"
+"series-2--climbing","Series 2","Climbing",FALSE,"series-2--climbing.png"
+"series-2--daydreaming","Series 2","Daydreaming",FALSE,"series-2--daydreaming.png"
+"series-2--pushing","Series 2","Pushing",FALSE,"series-2--pushing.png"
+"series-2--peeking","Series 2","Peeking",FALSE,"series-2--peeking.png"
+"series-2--listening","Series 2","Listening",FALSE,"series-2--listening.png"
+"series-2--snowman-christmas","Series 2","Snowman (Christmas)",TRUE,"series-2--snowman-christmas.png"
+"series-2--birth-of-venus","Series 2","Birth of Venus",TRUE,"series-2--birth-of-venus.png"
+"series-3--bridge","Series 3","Bridge",FALSE,"series-3--bridge.png"
+"series-3--peeking","Series 3","Peeking",FALSE,"series-3--peeking.png"
+"series-3--climbing","Series 3","Climbing",FALSE,"series-3--climbing.png"
+"series-3--little-three","Series 3","Little (three)",FALSE,"series-3--little-three.png"
+"series-3--hiding","Series 3","Hiding",FALSE,"series-3--hiding.png"
+"series-3--handstand","Series 3","Handstand",FALSE,"series-3--handstand.png"
+"series-3--the-thinker","Series 3","The Thinker",TRUE,"series-3--the-thinker.png"
+"series-4--sneaking","Series 4","Sneaking",FALSE,"series-4--sneaking.png"
+"series-4--scared","Series 4","Scared",FALSE,"series-4--scared.png"
+"series-4--relaxing","Series 4","Relaxing",FALSE,"series-4--relaxing.png"
+"series-4--lazy","Series 4","Lazy",FALSE,"series-4--lazy.png"
+"series-4--stuck","Series 4","Stuck",FALSE,"series-4--stuck.png"
+"series-4--defeated","Series 4","Defeated",FALSE,"series-4--defeated.png"
+"series-4--twin-angels","Series 4","Twin Angels",TRUE,"series-4--twin-angels.png"
+"bath-series--shampooing","Bath Series","Shampooing",FALSE,"bath-series--shampooing.png"
+"bath-series--not-looking","Bath Series","Not Looking",FALSE,"bath-series--not-looking.png"
+"bath-series--scrubbing","Bath Series","Scrubbing",FALSE,"bath-series--scrubbing.png"
+"bath-series--duck","Bath Series","Duck",FALSE,"bath-series--duck.png"
+"bath-series--dazed","Bath Series","Dazed",FALSE,"bath-series--dazed.png"
+"bath-series--looking","Bath Series","Looking",FALSE,"bath-series--looking.png"
+"bath-series--water-droplet","Bath Series","Water Droplet",TRUE,"bath-series--water-droplet.png"
+"bed-series--before-rest","Bed Series","Before Rest",FALSE,"bed-series--before-rest.png"
+"bed-series--sleepy","Bed Series","Sleepy",FALSE,"bed-series--sleepy.png"
+"bed-series--co-sleeping","Bed Series","Co-sleeping",FALSE,"bed-series--co-sleeping.png"
+"bed-series--reading","Bed Series","Reading",FALSE,"bed-series--reading.png"
+"bed-series--at-sleep","Bed Series","At Sleep",FALSE,"bed-series--at-sleep.png"
+"bed-series--fussing","Bed Series","Fussing",FALSE,"bed-series--fussing.png"
+"bed-series--crescent-moon","Bed Series","Crescent Moon",TRUE,"bed-series--crescent-moon.png"
+"birthday-series--giving-a-bouquet","Birthday Series","Giving a Bouquet",FALSE,"birthday-series--giving-a-bouquet.png"
+"birthday-series--wrapped-up","Birthday Series","Wrapped Up",FALSE,"birthday-series--wrapped-up.png"
+"birthday-series--popping-confetti","Birthday Series","Popping Confetti",FALSE,"birthday-series--popping-confetti.png"
+"birthday-series--birthday-message","Birthday Series","Birthday Message",FALSE,"birthday-series--birthday-message.png"
+"birthday-series--little-smiski-decorating","Birthday Series","Little Smiski Decorating",FALSE,"birthday-series--little-smiski-decorating.png"
+"birthday-series--smiski-tasting","Birthday Series","Smiski Tasting",FALSE,"birthday-series--smiski-tasting.png"
+"birthday-series--candle","Birthday Series","Candle",TRUE,"birthday-series--candle.jpg"
+"cheer-series--on-our-side","Cheer Series","On our side",FALSE,"cheer-series--on-our-side.png"
+"cheer-series--dancing","Cheer Series","Dancing",FALSE,"cheer-series--dancing.png"
+"cheer-series--little-cheerleading","Cheer Series","Little Cheerleading",FALSE,"cheer-series--little-cheerleading.png"
+"cheer-series--marching","Cheer Series","Marching",FALSE,"cheer-series--marching.png"
+"cheer-series--drums","Cheer Series","Drums",FALSE,"cheer-series--drums.png"
+"cheer-series--cheering","Cheer Series","Cheering",FALSE,"cheer-series--cheering.png"
+"cheer-series--trophy-angel","Cheer Series","Trophy Angel",TRUE,"cheer-series--trophy-angel.png"
+"construction-series--digging-a-hole","Construction Series","Digging a Hole",FALSE,"construction-series--digging-a-hole.png"
+"construction-series--crushing-rock","Construction Series","Crushing Rock",FALSE,"construction-series--crushing-rock.png"
+"construction-series--tightening-bolt","Construction Series","Tightening Bolt",FALSE,"construction-series--tightening-bolt.png"
+"construction-series--measuring","Construction Series","Measuring",FALSE,"construction-series--measuring.png"
+"construction-series--directing-traffic","Construction Series","Directing Traffic",FALSE,"construction-series--directing-traffic.png"
+"construction-series--loosening-bolt","Construction Series","Loosening Bolt",FALSE,"construction-series--loosening-bolt.png"
+"construction-series--cone","Construction Series","Cone",TRUE,"construction-series--cone.png"
+"dressing-series--underpants","Dressing Series","Underpants",FALSE,"dressing-series--underpants.png"
+"dressing-series--struggling","Dressing Series","Struggling",FALSE,"dressing-series--struggling.png"
+"dressing-series--loose-pants","Dressing Series","Loose Pants",FALSE,"dressing-series--loose-pants.png"
+"dressing-series--putting-on-socks","Dressing Series","Putting on Socks",FALSE,"dressing-series--putting-on-socks.png"
+"dressing-series--sweater","Dressing Series","Sweater",FALSE,"dressing-series--sweater.png"
+"dressing-series--tight-pants","Dressing Series","Tight Pants",FALSE,"dressing-series--tight-pants.png"
+"dressing-series--bunny-costume","Dressing Series","Bunny Costume",TRUE,"dressing-series--bunny-costume.png"
+"exercise-series--crunches","Exercise Series","Crunches",FALSE,"exercise-series--crunches.png"
+"exercise-series--aerobics","Exercise Series","Aerobics",FALSE,"exercise-series--aerobics.png"
+"exercise-series--balance","Exercise Series","Balance",FALSE,"exercise-series--balance.png"
+"exercise-series--dumbbell","Exercise Series","Dumbbell",FALSE,"exercise-series--dumbbell.png"
+"exercise-series--hoop","Exercise Series","Hoop",FALSE,"exercise-series--hoop.png"
+"exercise-series--stretch","Exercise Series","Stretch",FALSE,"exercise-series--stretch.png"
+"exercise-series--flexing","Exercise Series","Flexing",TRUE,"exercise-series--flexing.png"
+"hanging-series-christmas--santa-claus","Hanging Series (Christmas)","Santa Claus",FALSE,"hanging-series-christmas--santa-claus.png"
+"hanging-series-christmas--present","Hanging Series (Christmas)","Present",FALSE,"hanging-series-christmas--present.png"
+"hanging-series-christmas--snowman","Hanging Series (Christmas)","Snowman",FALSE,"hanging-series-christmas--santa-claus.png"
+"hanging-series-christmas--candy-cane","Hanging Series (Christmas)","Candy Cane",FALSE,"hanging-series-christmas--candy-cane.png"
+"hanging-series-christmas--stocking","Hanging Series (Christmas)","Stocking",FALSE,"hanging-series-christmas--stocking.png"
+"hanging-series-christmas--star","Hanging Series (Christmas)","Star",FALSE,"hanging-series-christmas--star.png"
+"hanging-series-christmas--reindeer","Hanging Series (Christmas)","Reindeer",TRUE,"hanging-series-christmas--reindeer.png"
+"living-series--daydreaming","Living Series","Daydreaming",FALSE,"living-series--daydreaming.png"
+"living-series--playing","Living Series","Playing",FALSE,"living-series--playing.png"
+"living-series--hiding","Living Series","Hiding",FALSE,"living-series--hiding.png"
+"living-series--nap-time","Living Series","Nap Time",FALSE,"living-series--nap-time.png"
+"living-series--thinking","Living Series","Thinking",FALSE,"living-series--thinking.png"
+"living-series--lifting","Living Series","Lifting",FALSE,"living-series--lifting.png"
+"living-series--sunflower","Living Series","Sunflower",TRUE,"living-series--sunflower.png"
+"moving-series--carrying-ladder","Moving Series","Carrying Ladder",FALSE,"moving-series--carrying-ladder.png"
+"moving-series--balancing-boxes","Moving Series","Balancing Boxes",FALSE,"moving-series--balancing-boxes.png"
+"moving-series--decorating","Moving Series","Decorating",FALSE,"moving-series--decorating.png"
+"moving-series--teamwork","Moving Series","Teamwork",FALSE,"moving-series--teamwork.png"
+"moving-series--green-thumb","Moving Series","Green Thumb",FALSE,"moving-series--green-thumb.png"
+"moving-series--falling-down","Moving Series","Falling Down",FALSE,"moving-series--falling-down.png"
+"moving-series--teddy","Moving Series","Teddy",TRUE,"moving-series--teddy.png"
+"museum-series--the-source","Museum Series","The Source",FALSE,"museum-series--the-source.png"
+"museum-series--fujin-and-raijin","Museum Series","Fujin and Raijin",FALSE,"museum-series--fujin-and-raijin.png"
+"museum-series--bacchus","Museum Series","Bacchus",FALSE,"museum-series--bacchus.png"
+"museum-series--velazquez","Museum Series","Velázquez",FALSE,"museum-series--velazquez.png"
+"museum-series--dali","Museum Series","Dali",FALSE,"museum-series--dali.png"
+"museum-series--pearl-earring","Museum Series","Pearl Earring",FALSE,"museum-series--pearl-earring.png"
+"museum-series--king-tut","Museum Series","King Tut",TRUE,"museum-series--king-tut.png"
+"sunday-series--blowing-bubbles","Sunday Series","Blowing Bubbles",FALSE,"sunday-series--blowing-bubbles.png"
+"sunday-series--paper-airplane","Sunday Series","Paper Airplane",FALSE,"sunday-series--paper-airplane.png"
+"sunday-series--sunbathing","Sunday Series","Sunbathing",FALSE,"sunday-series--sunbathing.png"
+"sunday-series--sing-along","Sunday Series","Sing-Along",FALSE,"sunday-series--sing-along.png"
+"sunday-series--skateboarding","Sunday Series","Skateboarding",FALSE,"sunday-series--skateboarding.png"
+"sunday-series--gardening","Sunday Series","Gardening",FALSE,"sunday-series--gardening.png"
+"sunday-series--dog-walker","Sunday Series","Dog Walker",TRUE,"sunday-series--dog-walker.png"
+"toilet-series--peek-a-boo","Toilet Series","Peek a Boo",FALSE,"toilet-series--peek-a-boo.png"
+"toilet-series--smelly","Toilet Series","Smelly",FALSE,"toilet-series--smelly.png"
+"toilet-series--squatting","Toilet Series","Squatting",FALSE,"toilet-series--squatting.png"
+"toilet-series--helping-out","Toilet Series","Helping Out",FALSE,"toilet-series--helping-out.png"
+"toilet-series--relaxing","Toilet Series","Relaxing",FALSE,"toilet-series--relaxing.png"
+"toilet-series--holding-in","Toilet Series","Holding In",FALSE,"toilet-series--holding-in.png"
+"toilet-series--water-fountain","Toilet Series","Water Fountain",TRUE,"toilet-series--water-fountain.png"
+"work-series--approving","Work Series","Approving",FALSE,"work-series--approving.png"
+"work-series--researching","Work Series","Researching",FALSE,"work-series--researching.png"
+"work-series--presentation","Work Series","Presentation",FALSE,"work-series--presentation.png"
+"work-series--good-idea","Work Series","Good Idea",FALSE,"work-series--good-idea.png"
+"work-series--on-the-road","Work Series","On the Road",FALSE,"work-series--on-the-road.png"
+"work-series--group-think","Work Series","Group Think",FALSE,"work-series--group-think.png"
+"work-series--lucky-cat","Work Series","Lucky Cat",TRUE,"work-series--lucky-cat.png"
+"yoga-series--lotus","Yoga Series","Lotus",FALSE,"yoga-series--lotus.png"
+"yoga-series--triangle","Yoga Series","Triangle",FALSE,"yoga-series--triangle.png"
+"yoga-series--twist","Yoga Series","Twist",FALSE,"yoga-series--twist.png"
+"yoga-series--tree","Yoga Series","Tree",FALSE,"yoga-series--tree.png"
+"yoga-series--shoulderstand","Yoga Series","Shoulderstand",FALSE,"yoga-series--shoulderstand.png"
+"yoga-series--ship","Yoga Series","Ship",FALSE,"yoga-series--ship.png"
+"yoga-series--twin-heart","Yoga Series","Twin Heart",TRUE,"yoga-series--twin-heart.png"
+"strap-series-1--hugging-knees","Strap Series 1","Hugging Knees",FALSE,"series-1--hugging-knees.png"
+"strap-series-1--sitting","Strap Series 1","Sitting",FALSE,"series-1--sitting.png"
+"strap-series-1--looking-back","Strap Series 1","Looking Back",FALSE,"series-1--looking-back.png"
+"strap-series-1--lounging","Strap Series 1","Lounging",FALSE,"series-1--lounging.png"
+"strap-series-1--hiding","Strap Series 1","Hiding",FALSE,"series-1--hiding.png"
+"strap-series-1--peeking","Strap Series 1","Peeking",FALSE,"series-1--peeking.png"
+"strap-series-1--scream","Strap Series 1","Scream",TRUE,"series-1--scream.png"
+"strap-series-2--kneeling","Strap Series 2","Kneeling",FALSE,"series-2--kneeling.png"
+"strap-series-2--climbing","Strap Series 2","Climbing",FALSE,"series-2--climbing.png"
+"strap-series-2--daydreaming","Strap Series 2","Daydreaming",FALSE,"series-2--daydreaming.png"
+"strap-series-2--pushing","Strap Series 2","Pushing",FALSE,"series-2--pushing.png"
+"strap-series-2--peeking","Strap Series 2","Peeking",FALSE,"series-2--peeking.png"
+"strap-series-2--listening","Strap Series 2","Listening",FALSE,"series-2--listening.png"
+"strap-series-2--birth-of-venus","Strap Series 2","Birth of Venus",TRUE,"series-2--birth-of-venus.png"
+"strap-series-3--bridge","Strap Series 3","Bridge",FALSE,"series-3--bridge.png"
+"strap-series-3--peeking","Strap Series 3","Peeking",FALSE,"series-3--peeking.png"
+"strap-series-3--climbing","Strap Series 3","Climbing",FALSE,"series-3--climbing.png"
+"strap-series-3--little-three","Strap Series 3","Little (three)",FALSE,"series-3--little-three.png"
+"strap-series-3--hiding","Strap Series 3","Hiding",FALSE,"series-3--hiding.png"
+"strap-series-3--handstand","Strap Series 3","Handstand",FALSE,"series-3--handstand.png"
+"strap-series-3--the-thinker","Strap Series 3","The Thinker",TRUE,"series-3--the-thinker.png"
+"hippers--smartphone","Hippers","Smartphone",FALSE,"hippers--smartphone.png"
+"hippers--trying-to-climb","Hippers","Trying to climb",FALSE,"hippers--trying-to-climb.png"
+"hippers--looking-out","Hippers","Looking out",FALSE,"hippers--looking-out.png"
+"hippers--sticking","Hippers","Sticking",FALSE,"hippers--sticking.png"
+"hippers--dozing","Hippers","Dozing",FALSE,"hippers--dozing.png"
+"hippers--upside-down","Hippers","Upside down",FALSE,"hippers--upside-down.png"
+"hippers--headphones","Hippers","Headphones",TRUE,"hippers--headphones.png"
+"mini-surprise--searching","Mini Surprise","Searching",FALSE,"mini-surprise--searching.png"
+"mini-surprise--lifting","Mini Surprise","Lifting",FALSE,"mini-surprise--lifting.png"
+"mini-surprise--hugging","Mini Surprise","Hugging",FALSE,"mini-surprise--hugging.png"

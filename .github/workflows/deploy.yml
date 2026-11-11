@@ -32,6 +32,11 @@ jobs:
       - name: Export app to static site
         run: Rscript -e 'shinylive::export("app", "site")'
 
+      # Pictures are served as plain files next to the app (not bundled into
+      # it) so the first load stays fast; the app links to them as ../img/
+      - name: Add pictures
+        run: cp -r images site/img
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3

@@ -6,6 +6,8 @@ library(bslib)
 
 smiskis <- read.csv("smiskis.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
 smiskis$secret <- as.logical(smiskis$secret)
+if (is.null(smiskis$image)) smiskis$image <- ""
+smiskis$image[is.na(smiskis$image)] <- ""
 smiskis$col_key <- gsub("[^a-z0-9]+", "-", tolower(smiskis$collection))
 
 collections <- unique(smiskis$collection)
@@ -21,6 +23,13 @@ empty_state <- function() {
 
 owned_in <- function(st, cl) sum(st$have[smiskis$id[smiskis$collection == cl]])
 
+# Pictures live in images/ next to app/ (not inside it), so the published site
+# can load them one at a time instead of bundling all of them into the app.
+# On GitHub Pages they're copied to img/, one level above the app's own URL.
+# When running locally with shiny::runApp("app"), serve them from ../images.
+img_base <- "../img/"
+if (dir.exists("../images")) addResourcePath("img", normalizePath("../images"))
+
 # ---- UI pieces --------------------------------------------------------------
 
 figure_row <- function(item, st) {
@@ -34,8 +43,19 @@ figure_row <- function(item, st) {
         checked = if (have) NA
       ),
       tags$span(class = "tick", `aria-hidden` = "true"),
-      tags$span(class = "name", item$figure),
-      if (item$secret) tags$span(class = "secret-badge", "secret")
+      if (nzchar(item$image)) {
+        tags$img(
+          class = "thumb", src = paste0(img_base, item$image), alt = "",
+          width = 56, height = 56, loading = "lazy", decoding = "async"
+        )
+      } else {
+        tags$span(class = "thumb thumb-empty", `aria-hidden` = "true")
+      },
+      tags$span(
+        class = "text",
+        tags$span(class = "name", item$figure),
+        if (item$secret) tags$span(class = "secret-badge", "secret")
+      )
     ),
     tags$input(
       type = "date", class = "smiski-date", `data-id` = id,
