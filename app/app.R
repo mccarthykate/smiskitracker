@@ -97,12 +97,23 @@ stat_tile <- function(title, output_id, sub_id) {
 # ---- UI ---------------------------------------------------------------------
 
 ui <- page_sidebar(
-  title = tags$span(class = "brand", tags$span(class = "brand-glow"), "Smiski Tracker"),
+  title = tagList(
+    # Phones only: opens and closes the sidebar as a slide-out menu
+    tags$button(
+      type = "button", class = "menu-btn", `aria-label` = "Menu",
+      `aria-expanded` = "false", `aria-controls` = "filters",
+      tags$span(), tags$span(), tags$span()
+    ),
+    tags$span(class = "brand", tags$span(class = "brand-glow"), "Smiski Tracker")
+  ),
   window_title = "Smiski Tracker",
   fillable = FALSE,
   sidebar = sidebar(
+    id = "filters",
     width = 290,
     bg = "#EEF4E6",
+    # On phones the sidebar becomes a slide-out menu (see tracker.js / styles.css)
+    open = list(desktop = "open", mobile = "always"),
     textInput("search", "Search", placeholder = "e.g. Peeking"),
     selectizeInput(
       "collections", "Collections", choices = collections, multiple = TRUE,
@@ -113,6 +124,7 @@ ui <- page_sidebar(
       choices = c("Everything" = "all", "Ones I have" = "have", "Ones I'm missing" = "missing")
     ),
     checkboxInput("secrets_only", "Secrets only", FALSE),
+    tags$button(type = "button", class = "btn btn-primary w-100 menu-done", "Show figures"),
     tags$hr(),
     tags$h6("Your collection is saved in this browser"),
     tags$p(

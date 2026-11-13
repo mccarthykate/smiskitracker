@@ -67,6 +67,48 @@ $(function () {
     );
   });
 
+  // ---- Phone menu ----------------------------------------------------------
+  // On small screens the sidebar slides in over the page. The ☰ button,
+  // "Show figures", tapping the dimmed page, or Escape open and close it.
+  var phone = window.matchMedia("(max-width: 575.98px)");
+  function menuIsOpen() {
+    return document.body.classList.contains("menu-open");
+  }
+  function setMenu(open) {
+    var header = document.querySelector(".bslib-page-sidebar > .navbar, .bslib-page-title");
+    if (header) {
+      document.documentElement.style.setProperty(
+        "--menu-top", Math.max(0, header.getBoundingClientRect().bottom) + "px"
+      );
+    }
+    document.body.classList.toggle("menu-open", open);
+    document.querySelectorAll(".menu-btn").forEach(function (btn) {
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.setAttribute("aria-label", open ? "Close menu" : "Menu");
+      btn.classList.toggle("open", open);
+    });
+    var sb = document.querySelector(".bslib-sidebar-layout > .sidebar");
+    if (sb && open) sb.scrollTop = 0;
+  }
+  $(document).on("click", ".menu-btn", function () {
+    setMenu(!menuIsOpen());
+  });
+  $(document).on("click", ".menu-done", function () {
+    setMenu(false);
+  });
+  // Tapping the dimmed page behind the menu closes it
+  $(document).on("click", ".menu-backdrop", function () {
+    setMenu(false);
+  });
+  $(document).on("keydown", function (e) {
+    if (e.key === "Escape" && menuIsOpen()) setMenu(false);
+  });
+  // Turning a phone sideways into a wide screen shouldn't leave it stuck open
+  phone.addEventListener("change", function (e) {
+    if (!e.matches) setMenu(false);
+  });
+  $("body").append('<div class="menu-backdrop" aria-hidden="true"></div>');
+
   $(document).on("change", ".smiski-date", function () {
     Shiny.setInputValue(
       "date_change",

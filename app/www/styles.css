@@ -181,3 +181,66 @@ body { background: var(--smiski-bg); color: var(--smiski-ink); }
 @media (max-width: 575px) {
   .smiski-grid { grid-template-columns: 1fr; }
 }
+
+/* ---- Phone menu --------------------------------------------------------- */
+.menu-btn, .menu-done, .menu-backdrop { display: none; }
+.bslib-page-sidebar > .navbar > .container-fluid { justify-content: flex-start; gap: .5rem; }
+
+@media (max-width: 575.98px) {
+  /* Header stays put so the menu button is always reachable. bslib pins the
+     body to the screen height, which would make the header scroll away after
+     one screen, so let the body grow with the page instead. */
+  html, body.bslib-page-fill { height: auto !important; min-height: 100%; }
+  .bslib-page-sidebar > .navbar { position: sticky; top: 0; z-index: 1040; }
+
+  .menu-btn {
+    display: inline-flex; flex-direction: column; justify-content: center; gap: 4px;
+    width: 2.5rem; height: 2.5rem; padding: 0 .55rem; margin-left: -.4rem;
+    border: none; border-radius: .6rem; background: transparent; color: var(--smiski-ink);
+  }
+  .menu-btn:focus-visible { outline: 2px solid var(--smiski-green-dark); outline-offset: 2px; }
+  .menu-btn span {
+    display: block; height: 2px; width: 100%; border-radius: 2px; background: currentColor;
+    transition: transform .2s, opacity .2s;
+  }
+  /* turns into an X while the menu is open */
+  .menu-btn.open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .menu-btn.open span:nth-child(2) { opacity: 0; }
+  .menu-btn.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+  /* The sidebar leaves the page flow and slides in from the left */
+  .bslib-sidebar-layout > .sidebar {
+    position: fixed !important;
+    top: var(--menu-top, 3.5rem); bottom: 0; left: 0;
+    width: min(86vw, 320px) !important; max-width: none !important;
+    height: auto !important; max-height: none !important;
+    overflow-y: auto; overscroll-behavior: contain;
+    z-index: 1035;
+    border-right: 1px solid var(--smiski-line);
+    box-shadow: 4px 0 24px rgba(46, 59, 47, .18);
+    transform: translateX(-105%); visibility: hidden;
+    transition: transform .25s ease, visibility 0s linear .25s;
+  }
+  .bslib-sidebar-layout > .sidebar > .sidebar-content { height: auto !important; }
+  body.menu-open .bslib-sidebar-layout > .sidebar {
+    transform: none; visibility: visible;
+    transition: transform .25s ease;
+  }
+  .menu-backdrop {
+    display: block; position: fixed; inset: 0; z-index: 1030;
+    background: rgba(46, 59, 47, .3);
+    opacity: 0; pointer-events: none; transition: opacity .25s;
+  }
+  body.menu-open .menu-backdrop { opacity: 1; pointer-events: auto; }
+  body.menu-open { overflow: hidden; }
+
+  .menu-done {
+    display: block; margin-top: .5rem;
+    --bs-btn-bg: var(--smiski-green); --bs-btn-border-color: var(--smiski-green);
+    --bs-btn-hover-bg: var(--smiski-green-dark); --bs-btn-hover-border-color: var(--smiski-green-dark);
+    --bs-btn-active-bg: var(--smiski-green-dark); --bs-btn-active-border-color: var(--smiski-green-dark);
+  }
+}
+@media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
+  .bslib-sidebar-layout > .sidebar, .menu-backdrop, .menu-btn span { transition: none !important; }
+}
